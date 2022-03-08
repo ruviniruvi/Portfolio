@@ -522,9 +522,33 @@ text-align: center;
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (max-width: 350px) {
+    .container{
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
+    .nav_menu{
+        padding: 2rem .25rem 4rem;
+    }
+    .nav_list{
+        column-gap: 0;
+    }
+    .home_content{
+        grid-template-columns: .25fr 3fr;
+    }
+    .skills_title{
+        font-size: var(--normal-font-size);
+    }
+    
+}
 
 
 /* For medium devices */
+
+@media screen and (max-width: 568px)  {
+    
+    
+}
 
 
 /* For large devices */
