@@ -475,7 +475,18 @@ text-align: center;
 .skills_aws{
     width: 40%;
 }
+.sklills_close 
+.skills_list{
+    height: 0;
+    overflow: hidden;
 
+}
+.sklills_open 
+.skills_list{
+    height: max-content;
+    overflow: var(--mb-2-5);
+
+}
 /*==================== QUALIFICATION ====================*/
 
 
