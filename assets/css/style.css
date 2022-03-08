@@ -490,7 +490,7 @@ text-align: center;
 /*==================== QUALIFICATION ====================*/
 
 
-/*==================== SERVICES ====================*/
+
 
 
 /* Active Modal */
@@ -502,7 +502,7 @@ text-align: center;
 /*==================== PROJECT IN MIND ====================*/
 
 
-/*==================== TESTIMONIAL ====================*/
+
 
 
 /*==================== CONTACT ME ====================*/
@@ -544,11 +544,28 @@ text-align: center;
 
 
 /* For medium devices */
-
+/*
 @media screen and (max-width: 568px)  {
+
+    .home_content{
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .home_data{
+        grid-column: initial;
+    }
+    .home_img{
+        order: 1;
+        justify-self: center;
+    }
+    .about_container,
+    .skills_container{
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
     
     
 }
-
+*/
 
 /* For large devices */
