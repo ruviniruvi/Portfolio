@@ -246,14 +246,19 @@ text-align: center;
 /*==================== HOME ====================*/
 .home_container{
     gap: 1rem;
+    overflow: initial;
 }
 
 .home_content{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
+    padding: 0 1.5rem;
     
 }
+
+
+
 
 .home_social{
     display: grid;
@@ -398,6 +403,7 @@ text-align: center;
 
 .skills_container{
     row-gap: 0;
+    overflow: initial;
 }
 .skills_header{
     display: flex;
@@ -502,6 +508,15 @@ text-align: center;
 
 
 /*==================== PORTFOLIO ====================*/
+.portfolio_container{
+overflow: initial;
+}
+
+.portfolio_content{
+    padding: 0 1.5rem;
+}
+
+
 
 
 /*==================== PROJECT IN MIND ====================*/
