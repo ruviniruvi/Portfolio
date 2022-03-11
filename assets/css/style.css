@@ -515,6 +515,31 @@ overflow: initial;
 .portfolio_content{
     padding: 0 1.5rem;
 }
+.portfolio_img{
+width: 500px;
+border-radius: 1rem;
+justify-self: center;
+}
+
+.portfolio_data{
+
+}
+
+.portfolio_title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+
+}
+.portfolio_description{
+    margin-bottom: var(--mb-0-75);
+
+}
+
+.portfolio_button :hover 
+.button_icon{
+
+transform: translateX(.25rem);
+}
 
 
 
