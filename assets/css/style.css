@@ -238,9 +238,12 @@ text-align: center;
 
 
 /* Active link */
+.active_link{
+    color: var(--first-color);
+}
 
 
-/* Change background header */
+
 
 
 /*==================== HOME ====================*/
@@ -672,11 +675,30 @@ margin-bottom: var(--mb-2);
 
 
 /*========== SCROLL UP ==========*/
-
+.scrollup{
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+}
+.scrollup:hover{
+    background-color: var(--first-color);
+}
+.scrollup_icon{
+    font-size: 1.5rem;
+    color: #fff;
+}
 
 /* Show scroll */
+.show-scroll{
+    bottom: 5rem;
 
-
+}
 /*========== SCROLL BAR ==========*/
 
 
