@@ -9,7 +9,7 @@
         
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -303,36 +303,38 @@
             <section class="portfolio section" id="portfolio">
                 <h2 class="section_title">Projects</h2>
                 <span class="section_subtitle">My recent projects</span> 
-                <div class="portfolio_container container">
-                    <div>
+                <div class="portfolio_container container ">
+                  <!--====================   <div class="swiper-wrapper">-->
                          <!--==================== PORTFOLIO sections ====================-->
+                         <!--==================== PORTFOLIO section 1 ====================-->
                         <div class="portfolio_content grid">
+                        
                             <img src="assets/img/bank.png" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
                                 <h3 class="portfolio_title">Bank Management System </h3>
                                 <p class="portfolio_description">Bank Management System is a Java desktop application that allows users to perform daily banking activities. Designed user-friendy front end using Java Swing then used JDBC to connect MS SQL Server as the backend.</p>
-                                <a href="#" class="button button--flex button--small portfolio_button">
+                                <a href="https://github.com/ruviniruvi/BankLoginPage" class="button button--flex button--small portfolio_button">
                                     View project
                                     <i class="uil uil-arrow-right button_icon"></i>
                                 </a>
                             </div>
                         </div>
-                        <!--==================== PORTFOLIO section 1 ====================
+                       <!--==================== PORTFOLIO section 2 ====================-->
                         <div class="portfolio_content grid">
                             <img src="assets/img/pexels-fauxels-3184454.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
-                                <h3 class="portfolio_title">Bank Management System </h3>
-                                <p class="portfolio_description">This is a project which I used java for frontend and SQL server for the backend.</p>
-                                <a href="#" class="button button--flex button--small portfolio_button">
+                                <h3 class="portfolio_title">Simple Todo App </h3>
+                                <p class="portfolio_description">Simple Todo is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.</p>
+                                <a href="https://github.com/ruviniruvi/SimpleToDo" class="button button--flex button--small portfolio_button">
                                     View project
                                     <i class="uil uil-arrow-right button_icon"></i>
                                 </a>
                             </div>
-                        </div>--->
-                        <!--==================== PORTFOLIO section 2 ====================-->
-                        <div class="portfolio_content grid">
+                        </div>
+                        <!--==================== PORTFOLIO section 3 ====================-->
+                        <div class="portfolio_content grid ">
                             <img src="assets/img/girumi.png" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -340,14 +342,14 @@
                                 <p class="portfolio_description">Our application is an entertainment media app which tracks entertainment media such as anime, books, games and movies what user is planning to watch, currently watching and have already watched.
 
                                     This is a user friendly application which allows user to add new entertainment media to the user’s list and edit and delete from the list. And also user can rate and set dates for the entertainment for future references.</p>
-                                <a href="#" class="button button--flex button--small portfolio_button">
+                                <a href="https://github.com/ruviniruvi/Capstone-client" class="button button--flex button--small portfolio_button">
                                     View project
                                     <i class="uil uil-arrow-right button_icon"></i>
                                 </a>
                             </div>
                         </div>
                         <!--==================== PORTFOLIO section 3 ====================
-                        <div class="portfolio_content grid">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/pexels-fauxels-3184454.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -359,7 +361,9 @@
                                 </a>
                             </div>
                         </div>-->
-                    </div>
+                   <!---- </div>-->
+
+                    
                 </div>  
 
             </section>
@@ -393,7 +397,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
